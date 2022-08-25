@@ -35,7 +35,7 @@ class Grad extends Student{
 	}
 }
 
-public class que01{
+public class LabTest{
 	public static void main(String args[]){
 		// undergraduate student
 		Undergrad ug = new Undergrad();
@@ -53,14 +53,14 @@ public class que01{
 
 		// Graduate student
 		Grad g = new Grad();
-		g.setName("John");
+		g.setName("Saif");
 		g.setId(26);
 		g.grade=85.3;
 		System.out.println("A Grade student  NAME : " +g.getName());
 		System.out.println("ID :" + g.getId()) ;
 		System.out.println("Grade:" + g.grade);
 		if(ug.IsPassed(ug.grade))
-			System.out.println("You passed this test with distinction");	
+			System.out.println("You passed this test with outstanding performance");	
 		else
 			System.out.println("passed with distinction");
 	}
