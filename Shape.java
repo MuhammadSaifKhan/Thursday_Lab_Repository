@@ -61,7 +61,7 @@ class Rectangle1 extends shape{
 public class Shape {
 
 	public static void main(String[] args) {
-	//  shape sp  = new shape(); //gives error because we cannot create object of abstclass without inherit subclass from it 
+	//  shape sp  = new shape(); //gives error because we cannot create object of abstract class without inheriting subclass from it 
        Square1 sq = new Square1();
        if(sq.length==sq.width) {
     	   System.out.println("the rectangle class is a square");
