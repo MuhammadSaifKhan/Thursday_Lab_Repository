@@ -1,4 +1,5 @@
 //Code is explained below
+package javatraining;
 abstract class shape{
 	private String color;
 	private boolean filled;
