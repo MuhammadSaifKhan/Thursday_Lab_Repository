@@ -1,3 +1,4 @@
+//Code is explained below
 abstract class shape{
 	private String color;
 	private boolean filled;
