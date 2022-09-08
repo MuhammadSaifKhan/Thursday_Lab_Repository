@@ -35,7 +35,7 @@ class Book{
 public class BookStore {
 	public static void main(String[] args) {
 		Book b = new Book("OAL", "Ocean At The End of The Lane","Fiction",799f );
-		Book b1 = new Book("FIOS","Fault In Our Stars","John Green","Fiction",855f );
+		Book b1 = new Book("FIOS","Fault In Our Stars","John Green","Fiction,855f );
 		Book b2 = new Book("PJ","Percy Jackson","Rick Rordan","Fiction",455f );
 		b.show();
 		b1.show();
